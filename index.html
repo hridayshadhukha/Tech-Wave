@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechWave</title>
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Internal CSS -->
+    <style>
+      .inter {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="m-0 p-0 box-border inter">
+    <header class="bg-[#1A0B2E]">
+      <nav
+        class="p-5 sm:px-[40px] md:px-[100px] mx-auto border-b border-[#412567]"
+      >
+        <div class="flex justify-between items-center">
+          <img src="./assets/TechWave-mobile.png" alt="" class="md:hidden" />
+          <img
+            src="./assets/TechWave-desktop.png"
+            alt=""
+            class="hidden md:block"
+          />
+          <img
+            src="./assets/hamburger-menu.png"
+            alt=""
+            class="w-6 h-4 sm:hidden"
+          />
+          <ul class="hidden sm:flex items-center gap-8 list-none">
+            <li><a href="#" class="text-white font-medium">About</a></li>
+            <li><a href="#" class="text-white font-medium">Episodes</a></li>
+            <li><a href="#" class="text-white font-medium">Host</a></li>
+          </ul>
+          <button
+            style="
+              background: linear-gradient(
+                30deg,
+                rgba(247, 233, 63, 1),
+                rgba(251, 9, 180, 1),
+                rgba(145, 0, 248, 1)
+              );
+            "
+            class="hidden sm:flex sm:items-center gap-1 rounded-full text-white font-semibold px-4 py-3"
+          >
+            Subscribe <span><i class="fa-solid fa-arrow-right"></i></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- hero-section -->
+      
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
