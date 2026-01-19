@@ -73,7 +73,38 @@
 
     <main>
       <!-- hero-section -->
-      
+      <section class="relative h-[90vh] flex items-center justify-center flex-col overflow-hidden">
+        <div
+          class="absolute inset-0 bg-[url(./assets/hero-bg.png)] bg-no-repeat bg-center bg-cover"
+        ></div>
+        <div class="relative z-10 mt-10">
+          <div class="relative flex justify-center items-center">
+            <img src="./assets/hero-circle.png" alt="" class="w-[260px] h-[260px] xl:w-[350px] xl:h-[350px]" />
+          <img
+            src="./assets/microphone.png"
+            alt=""
+            class="absolute w-[70px] h-[100px] xl:w-[116px] xl:h-[190px]"
+          />
+          </div>
+          <span class="absolute top-1 right-3 px-5 py-2 text-2xl font-semibold bg-[#00FF88] rounded-full shadow-2xl shadow-[#00ff8880]">New</span>
+        </div>
+
+        <div class="relative mt-10">
+          <h2 class="text-white text-[40px] font-extrabold text-center">TechWave</h2>
+          <p class="text-white opacity-[0.8] text-center">Your daily dose of tech insights, productivity <br class="sm:hidden"> hacks, and personal growth</p>
+          <div class="flex items-center justify-center gap-5 mt-4">
+            <button style="
+              background: linear-gradient(
+                30deg,
+                rgba(247, 233, 63, 1),
+                rgba(251, 9, 180, 1),
+                rgba(145, 0, 248, 1)
+              );
+            " class="rounded-full text-white font-semibold px-4 py-3 flex ite gap-2"><img src="./assets/spotify.png" alt=""> Listen on Spotify</button>
+            <button class="px-4 py-3 text-[#00FF88] font-semibold border border-[#00FF88] flex items-center gap-2 rounded-full"><img src="./assets/message.png" alt=""> Subscribe</button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer></footer>
