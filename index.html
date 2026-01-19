@@ -34,14 +34,15 @@
 
   <body class="m-0 p-0 box-border inter">
     <header class="bg-[#1A0B2E]">
-      <nav class="p-5 md:px-[200px] mx-auto">
+      <nav class="p-5 md:px-[100px] xl:px-[200px] mx-auto">
         <div class="flex justify-between items-center">
-          <img src="./assets/TechWave-mobile.png" alt="" class="md:hidden" />
-          <img
-            src="./assets/TechWave-desktop.png"
-            alt=""
-            class="hidden md:block"
-          />
+          <!-- <img src="./assets/TechWave-mobile.png" alt="" class="md:hidden" /> -->
+          <h2 class="text-white text-3xl md:text-5xl font-extrabold">
+            Tech<span
+              class="bg-[linear-gradient(180deg,#9100F8,#FB09B4,#F7E93F)] bg-clip-text text-transparent"
+              >Wave</span
+            >
+          </h2>
           <img
             src="./assets/hamburger-menu.png"
             alt=""
@@ -76,19 +77,19 @@
         class="relative flex items-center justify-center flex-col overflow-hidden min-h-screen"
       >
         <div
-          class="absolute inset-0 bg-[url(./assets/hero-bg.png)] bg-no-repeat bg-[position:50%_0] md:bg-[position:50%_0] bg-cover"
+          class="absolute inset-0 bg-[url(./assets/hero-bg.png)] bg-no-repeat bg-center bg-cover"
         ></div>
         <div class="relative z-10 mt-5">
           <div class="relative flex justify-center items-center">
             <img
               src="./assets/hero-circle.png"
               alt=""
-              class="w-[260px] h-[260px] xl:w-[350px] xl:h-[350px]"
+              class="w-[300px] h-[300px] sm:w-[300px] sm:h-[300px] xl:w-[350px] xl:h-[350px]"
             />
             <img
               src="./assets/microphone.png"
               alt=""
-              class="absolute w-[70px] h-[100px] xl:w-[116px] xl:h-[190px]"
+              class="absolute w-[80px] h-[110px] sm:w-[90px] sm:h-[120px] xl:w-[116px] xl:h-[190px]"
             />
           </div>
           <span
@@ -120,7 +121,8 @@
               "
               class="rounded-full text-white font-semibold px-4 sm:px-5 py-3 flex ite gap-2"
             >
-              <img src="./assets/spotify.png" alt="" /> Listen on Spotify
+              <img src="./assets/line-md_spotify.png" alt="" /> Listen on
+              Spotify
             </button>
             <button
               class="px-4 sm:px-5 py-3 text-[#00FF88] font-semibold border border-[#00FF88] flex items-center gap-2 rounded-full"
@@ -131,7 +133,7 @@
         </div>
       </section>
 
-      <section class="px-5 py-10 bg-[#1A0B2E] sm:px-[200px]">
+      <section class="px-5 py-10 bg-[#1A0B2E] md:px-[100px] xl:px-[200px]">
         <div class="py-10 border-b border-[#412567]">
           <h2
             class="text-[32px] sm:text-[48px] font-bold text-white text-center mb-4"
@@ -197,9 +199,11 @@
         </div>
       </section>
 
-      <section class="p-5 sm:px-[200px] sm:py-[120px] bg-[#230E3D]">
+      <section
+        class="p-5 md:px-[100px] xl:px-[200px] sm:py-[120px] bg-[#230E3D]"
+      >
         <h2
-          class="text-white text-[32px] sm:text[48px] font-bold text-center pt-10 pb-4"
+          class="text-white text-[32px] sm:text-[48px] font-bold text-center pt-10 pb-4"
         >
           Why Choose TechWave
         </h2>
@@ -263,23 +267,42 @@
         </div>
       </section>
 
-      <section class="px-5 py-10 bg-[#1A0B2E] md:px-[200px]">
+      <section class="px-5 py-10 bg-[#1A0B2E] md:px-[100px] xl:px-[200px]">
         <h2
-          class="text-white text-[32px] sm:text[48px] font-bold text-center pt-10 pb-4"
+          class="text-white text-[32px] sm:text-[48px] font-bold text-center pt-10 pb-8"
         >
           Featured Episodes
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 items-center gap-7">
           <div class="bg-[#250D44] rounded-t-[24px] rounded-b-[24px] pb-4">
             <div class="w-full h-full">
-              <iframe width="560" height="190" src="https://www.youtube.com/embed/cFc4KikfH8M?si=5B3OQqXCgs2m4r9V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-full rounded-t-[24px]"></iframe>
+              <iframe
+                width="560"
+                height="190"
+                src="https://www.youtube.com/embed/cFc4KikfH8M?si=5B3OQqXCgs2m4r9V"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="w-full rounded-t-[24px]"
+              ></iframe>
             </div>
             <div class="px-4 py-4">
               <h4 class="text-white text-xl font-bold">
                 Gopal Bhar | Episode - 1217
               </h4>
               <p class="text-white opacity-[0.6] py-2">
-                Gopal Bhar was a legendary court jester in medieval Bengal. He was in the court of Raja Krishnachandra...
+                Gopal Bhar was a legendary court jester in medieval Bengal. He
+                was in the court of Raja Krishnachandra...
               </p>
               <div class="flex items-center gap-2 text-[#00FF88] font-semibold">
                 <img src="./assets/clock.png" alt="" />
@@ -290,14 +313,33 @@
 
           <div class="bg-[#250D44] rounded-t-[24px] rounded-b-[24px]">
             <div class="w-full h-full">
-              <iframe width="560" height="190" src="https://www.youtube.com/embed/3mGAL1cGyL4?si=g71DxoRdLdaq417U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-full rounded-t-[24px]"></iframe>
+              <iframe
+                width="560"
+                height="190"
+                src="https://www.youtube.com/embed/3mGAL1cGyL4?si=g71DxoRdLdaq417U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="w-full rounded-t-[24px]"
+              ></iframe>
             </div>
             <div class="px-4 py-4">
               <h4 class="text-white text-xl font-bold">
                 Gopal Bhar | Episode - 1170
               </h4>
               <p class="text-white opacity-[0.6] py-2">
-                His statue can still be seen in the palace of Raja Krishnachandra. Stories about his exploits are narrated...
+                His statue can still be seen in the palace of Raja
+                Krishnachandra. Stories about his exploits are narrated...
               </p>
               <div class="flex items-center gap-2 text-[#00FF88] font-semibold">
                 <img src="./assets/clock.png" alt="" />
@@ -305,18 +347,36 @@
               </div>
             </div>
           </div>
-             
 
           <div class="bg-[#250D44] rounded-t-[24px] rounded-b-[24px]">
             <div class="w-full h-full">
-              <iframe width="560" height="190" src="https://www.youtube.com/embed/8sXuqBODbmQ?si=vlyxwSm_NvViGSLb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-full rounded-t-[24px]"></iframe>
+              <iframe
+                width="560"
+                height="190"
+                src="https://www.youtube.com/embed/8sXuqBODbmQ?si=vlyxwSm_NvViGSLb"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="w-full rounded-t-[24px]"
+              ></iframe>
             </div>
             <div class="px-4 py-4">
               <h4 class="text-white text-xl font-bold">
                 Gopal Bhar | Episode - 1171
               </h4>
               <p class="text-white opacity-[0.6] py-2">
-                the famous king of Nadia in the 18th century AD. Such was the genius of Gopal that the King...
+                the famous king of Nadia in the 18th century AD. Such was the
+                genius of Gopal that the King...
               </p>
               <div class="flex items-center gap-2 text-[#00FF88] font-semibold">
                 <img src="./assets/clock.png" alt="" />
@@ -327,28 +387,56 @@
         </div>
 
         <div class="pt-14">
-          <h2 class="text-[32px] text-white font-bold text-center pb-5">Meet the Host</h2>
+          <h2
+            class="text-[32px] sm:text-[48px] text-white font-bold text-center pb-5"
+          >
+            Meet the Host
+          </h2>
         </div>
 
-        <div class="p-6 bg-[#35116540] rounded-3xl">
+        <div
+          class="p-6 bg-[#35116540] rounded-3xl md:flex md:items-center md:gap-5"
+        >
           <div class="flex justify-center items-center">
-            <img src="./assets/host.png" alt="">
+            <img src="./assets/host.png" alt="" class="" />
           </div>
           <div class="">
-            <h3 class="text-white text-2xl font-bold py-4 text-center">Alex Kumar</h3>
-            <p class="text-white opacity-[0.6] text-center">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
-            <div class="flex justify-center items-center gap-2 pt-4">
-              <div class="flex items-center justify-center w-10 h-10 border border-[#533C72] rounded-full ">
-                <img src="./assets/linkedin.png" alt="">
+            <h3
+              class="text-white text-2xl font-bold py-4 text-center md:text-left"
+            >
+              Alex Kumar
+            </h3>
+            <p class="text-white opacity-[0.6] text-center md:text-left">
+              Tech entrepreneur, productivity expert, and lifelong learner. br
+              Alex has been in the tech industry for over
+              <br class="hidden md:block" />
+              10 years, working with startups and Fortune 500 companies. Through
+              TechWave, Alex shares insights from <br class="hidden md:block" />
+              industry leaders and practical advice for anyone looking to grow
+              in tech.
+            </p>
+            <div
+              class="flex justify-center md:justify-start items-center gap-2 pt-4"
+            >
+              <div
+                class="flex items-center justify-center w-10 h-10 border border-[#533C72] rounded-full"
+              >
+                <img src="./assets/linkedin.png" alt="" />
               </div>
-              <div class="flex items-center justify-center w-10 h-10 border border-[#533C72] rounded-full ">
-                <img src="./assets/x.png" alt="">
+              <div
+                class="flex items-center justify-center w-10 h-10 border border-[#533C72] rounded-full"
+              >
+                <img src="./assets/x.png" alt="" />
               </div>
-              <div class="flex items-center justify-center w-10 h-10 border border-[#533C72] rounded-full ">
-                <img src="./assets/instagram.png" alt="">
+              <div
+                class="flex items-center justify-center w-10 h-10 border border-[#533C72] rounded-full"
+              >
+                <img src="./assets/instagram.png" alt="" />
               </div>
-              <div class="flex items-center justify-center w-10 h-10 border border-[#533C72] rounded-full ">
-                <img src="./assets/youtube.png" alt="">
+              <div
+                class="flex items-center justify-center w-10 h-10 border border-[#533C72] rounded-full"
+              >
+                <img src="./assets/youtube.png" alt="" />
               </div>
             </div>
           </div>
@@ -356,8 +444,44 @@
       </section>
     </main>
 
-    <footer class="bg-[url(./assets/footer-bg.png)] bg-no-repeat bg-cover px-5 py-10">
-      <img src="./assets/TechWave-mobile.png" alt="">
+    <footer
+      class="bg-[url(./assets/footer-bg.png)] bg-no-repeat bg-cover bg-center px-5 py-10"
+    >
+      <h2 class="text-white text-3xl md:text-7xl font-extrabold text-center">
+        Tech<span
+          class="bg-[linear-gradient(180deg,#9100F8,#FB09B4,#F7E93F)] bg-clip-text text-transparent"
+          >Wave</span
+        >
+      </h2>
+      <div class="md:flex md:justify-center md:items-center md:pt-4 md:pr-14">
+        <div class="flex justify-center gap-5 px-16 mt-10 md:mt-0">
+          <div class="flex items-center gap-2">
+            <img src="./assets/spotify.png" alt="" />
+            <span class="text-white opacity-[0.6]">Spotify</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="./assets/apple-podcast.png" alt="" />
+            <span class="text-white opacity-[0.6] whitespace-nowrap"
+              >Apple Podcasts</span
+            >
+          </div>
+        </div>
+        <div class="flex justify-center gap-5 mt-4 md:mt-0 md:-ml-10">
+          <div class="flex items-center gap-2">
+            <img src="./assets/youtube-podcast.png" alt="" />
+            <span class="text-white opacity-[0.6]">YouTube</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="./assets/twitter.png" alt="" />
+            <span class="text-white opacity-[0.6]">Twitter</span>
+          </div>
+        </div>
+      </div>
+
+      <span
+        class="text-white opacity-[0.6] flex justify-center mt-5"
+        >© 2026 TechWave Podcast. All rights reserved.</span
+      >
     </footer>
   </body>
 </html>
